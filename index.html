@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="icon" href="./images/software-engineer-icon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1bbfd7253a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header id="inicio" class="header">
+    <div class="header-top">  
+      <a href="#inicio">
+        <img class="header__logo" src="images/romar.png" alt="Logo personal">
+      </a>
+      <nav id="nav" class="nav">
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a id="link-inicio" href="#inicio" class="nav__links">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <a id="link-portafolio" href="#portafolio" class="nav__links">Portafolio</a>
+          </li>
+          <li class="nav__items">
+            <a id="link-about-me" href="#about-me" class="nav__links">Sobre mí</a>
+          </li>
+          <li class="nav__items">
+            <a id="link-contact" href="#contact" class="nav__links">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container-menu-hamburguesa">
+        <img class="menu-hamburguesa" src="images/menu-hamburguesa-white.png" alt="Menu Hamburguesa">
+      </div>
+    </div>
+    <section class="header-section sections">
+    <div class="avatar-container">
+        <img class="header-avatar" src="./images/OmarN.png" alt="">
+      </div>
+      <h1 class="principal-title">Hola, mi nombre es <span class="title-name">Raúl O. Nava</span></h1>
+      <p class="job-title">Frontend Developer</p>
+      <a class="link-about-me" href="#about-me">Sobre mí</a>
+    </section>
+  </header>
+  <main class="main">
+    <!-- Sección PORTAFOLIO -->
+    <section id="portafolio" class="portfolio section-main sections">
+      <h2 class=" title-section section-title">Portafolio</h2>
+      <div class="card-project-container">
+        <article class="project-card">
+          <a target="_blank" href="https://ecommerceomarnava.netlify.app/" class="container-img">
+            <img class="img-card" src="./images/ecommer.jpeg" alt="ecommerce">
+          </a>
+          <div class="container-main-card">
+            <h3 class="project-name">E-Commerce</h3>
+            <p class="project-description">Diseño de interfaz con React.JS con API
+              Manejo de variabes Redux
+              Animacion de componentes con Framer-motion.</p>
+            <div class="card-technology-container">
+              <img class="logo-card" src="images/logo-html.png" alt="logo html en una card">
+              <img class="logo-card" src="images/logo-css.png" alt="logo css en una card">
+              <img class="logo-card" src="images/logo-js.png" alt="logo javascript en una card">
+              <img class="logo-card" src="images/react.png" alt="logo  en una card">
+            </div>
+            <footer class="card-btn-container">
+              <a class="anchord-repository card-btn card-btn-repository" href="https://github.com/omarnavaarambula/EcommerceAPPOmarNava.git" target="_blank">Ver repositorio</a>
+              <a class="card-btn card-btn-project" href="https://ecommerceomarnava.netlify.app/" target="_blank">Ver proyecto</a>
+            </footer>
+          </div>
+        </article>
+        <article class="project-card">
+          <a target="_blank" href="https://pokeapiomarnava.netlify.app/" class="container-img">
+            <img class="img-card" src="./images/pokeap.png" alt="no fount img poke">
+          </a>
+          <div class="container-main-card">
+            <h3 class="project-name">pokedex</h3>
+            <p class="project-description">Diseño de interfaz con React.JS con API Utilizando React Router, Axios, React Redux. </p>
+            <div class="card-technology-container">
+              <img class="logo-card" src="images/logo-html.png" alt="logo html en una card">
+              <img class="logo-card" src="images/logo-css.png" alt="logo css en una card">
+              <img class="logo-card" src="images/logo-js.png" alt="logo javascript en una card">
+              <img class="logo-card" src="images/react.png" alt="logo  en una card">
+            </div>
+            <footer class="card-btn-container">
+              <a class="anchord-repository card-btn card-btn-repository" href="https://github.com/omarnavaarambula/pokeAPIOmarNAva" target="_blank">Ver repositorio</a>
+              <a class="card-btn card-btn-project" href="https://pokeapiomarnava.netlify.app/" target="_blank">Ver proyecto</a>
+            </footer>
+          </div>
+        </article>
+        <article class="project-card">
+          <a target="_blank" href="https://weatherappomarnava.netlify.app/" class="container-img">
+            <img class="img-card" src="./images/whater.png" alt="Img don't fount">
+          </a>
+          <div class="container-main-card">
+            <h3 class="project-name">Weather app</h3>
+            <p class="project-description">Aplicacion para el clima realizada el React.JS con API, Requiere permiso ala ubicacion geografica</p>
+            <div class="card-technology-container">
+              <img class="logo-card" src="images/logo-html.png" alt="logo html en una card">
+              <img class="logo-card" src="images/logo-css.png" alt="logo css en una card">
+              <img class="logo-card" src="images/logo-js.png" alt="logo javascript en una card">
+              <img class="logo-card" src="images/react.png" alt="logo  en una card">
+            </div>
+            <footer class="card-btn-container">
+              <a class="card-btn card-btn-repository" href="https://github.com/omarnavaarambula/weatherapp" target="_blank">Ver repositorio</a>
+              <a class="card-btn card-btn-project" href="https://weatherappomarnava.netlify.app/" target="_blank">Ver proyecto</a>
+            </footer>
+          </div>
+        </article>
+        <article class="project-card">
+          <a target="_blank" href="https://ecommerjsomar.netlify.app/" class="container-img">
+            <img class="img-card" src="./images/ecommerjs.png" alt="Img don't fount">
+          </a>
+          <div class="container-main-card">
+            <h3 class="project-name">E-Commerce JS</h3>
+            <p class="project-description">Tienda online de Ropa,
+              Diseño con HTML,CSS y JavaScript, LocalStorage, para la presistencia de los datos del carrito.</p>
+            <div class="card-technology-container">
+              <img class="logo-card" src="images/logo-html.png" alt="logo html en una card">
+              <img class="logo-card" src="images/logo-css.png" alt="logo css en una card">
+              <img class="logo-card" src="images/logo-js.png" alt="logo javascript en una card">
+            </div>
+            <footer class="card-btn-container">
+              <a class="card-btn card-btn-repository" href="https://github.com/omarnavaarambula/ecommerce-js" target="_blank">Ver repositorio</a>
+              <a class="card-btn card-btn-project" href="https://ecommerjsomar.netlify.app/" target="_blank">Ver proyecto</a>
+            </footer>
+          </div>
+        </article>
+      </div>
+    </section>
+    <hr>
+    <section id="about-me" class="about-me section-main sections">
+      <h2 class="about-me__title section-title">Sobre mí</h2>
+      <div class="about-me-container">
+        <p class="about-me__description">
+          ¡Hola mundo! soy Omar Nava, Soy estudiante en desarrollo web fullStack. Estoy feliz por mi cambio y deseo tener un crecimiento constante tanto personal, como profesional, siendo un destacado programador y con un foco en el aprendizaje autodidacta, queriendo estar constantemente a la vanguarda respecto de las tecnologías actuales, además, soy un amante del trabajo en equipo, con el deseo de compartir mis conocimientos, y por su puesto, aprender de lo que otros desarrolladores tienen para aporta.
+          Deseo a mediano plazo tener los conocimientos necesarios y habilidades blandas para ser un lider de un grupo de desarrolladores.
+        </p>
+        <div class="about-me__technology">
+          <article class="html-technology technology-container">
+            <img class="logo-html logo-technology" src="images/logo-html.png" alt="Logo de HTML">
+            <h3 class="title-html title-technology">HTML</h3>
+          </article>
+          <article class="css-technology technology-container">
+            <img class="logo-css logo-technology" src="images/logo-css.png" alt="Logo de CSS">
+            <h3 class="title-css title-technology">CSS</h3>
+          </article>
+          <article class="js-technology technology-container">
+            <img class="logo-js logo-technology" src="images/logo-js.png" alt="Logo de Javascript">
+            <h3 class="title-js title-technology">Javascript</h3>
+          </article>
+          <article class="git-technology technology-container">
+            <img class="logo-git logo-technology" src="images/logo-git.png" alt="Logo de git">
+            <h3 class="title-git title-technology">GIT</h3>
+          </article>
+          <article class="js-technology technology-container">
+            <img class="logo-js logo-technology" src="images/react.png" alt="Logo de react">
+            <h3 class="title-js title-technology">React.js</h3>
+          </article>
+        </div>
+      </div>    
+      <article class="doc-bf">
+        <h3 class="phrase">"Si eres dedicado podrás lograr lo que sea"</h3>
+        <p class="doc-mb">Dr. Emmett Brown</p>
+      </article>
+    </section>
+    <hr class="hr-margin">
+      <!-- Sección CONTACTO -->
+    <section class="contact section-main sections">
+      <h2 id="contact" class="contact__title section-title">Contacto</h2>
+      <h3 class="subtitle-contact">¿Deseas trabajar conmigo?</h3>
+      <form id="form-contact" class="form-contact" action="form-contact">
+        <label class="label-form" for="input-name">Nombre completo&nbsp;<span class="input-span">*</span></label>
+        <input class="form-input" id="input-name" name="name" type="text" placeholder="Escribe tu nombre completo" required>
+        <label class="label-form" for="input-correo">Correo electrónico&nbsp;<span class="input-span">*</span></label>
+        <input class="form-input" id="input-correo" name="correo" type="email" placeholder="Escribre tu correo electrónico" required>
+        <label class="label-form" for="message">Mensaje&nbsp;<span class="input-span">*</span></label>
+        <textarea class="contact-form-textarea" name="correo-message" id="message" placeholder="Escribe el mensaje aquí" required></textarea>
+        <input class="submit" type="submit" value="Enviar">
+      </form>
+      <a class="mail-to" id="mail-to" href="mailto:omarnavaarambula@gmail.com">Enviar un correo</a>
+    </section>
+  </main>
+  <hr class="hr-margin">
+  <footer class="footer hr-margin">
+    <p>&#169;Construido por <span class="footer-span">Omar Nava</span> en 2022</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
